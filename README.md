@@ -8,7 +8,11 @@
 - vim
 - byobu(Backend is tmux)
 
-#byobuのロゴ消し
+# Vimが文字化ける
+power-line導入してるからググッてteratermとかputtyに適応してください。
+(フォントファイルを上げると著作権違反になる)
+
+# byobuのロゴ消し
 勝手にスクロールしちゃったりなんだかんだめんどくさい  
 ### とりあえずロゴいらん  
   [.byobu/status @32行目](https://github.com/Surigoma/surigoma-teminal-conf/blob/master/.byobu/status#L32)  
