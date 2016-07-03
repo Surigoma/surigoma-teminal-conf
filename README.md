@@ -8,6 +8,10 @@
 - vim
 - byobu(Backend is tmux)
 
+# Views
+![zsh + byobu](http://surigoma.net/~surigoma/img/config-capture1.png)
+![vim](http://surigoma.net/~surigoma/img/config-capture2.png)
+
 # Vimが文字化ける
 power-line導入してるからググッてteratermとかputtyに適応してください。  
 (フォントファイルを上げると著作権違反になる)  
