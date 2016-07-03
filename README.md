@@ -9,8 +9,8 @@
 - byobu(Backend is tmux)
 
 # Vimが文字化ける
-power-line導入してるからググッてteratermとかputtyに適応してください。
-(フォントファイルを上げると著作権違反になる)
+power-line導入してるからググッてteratermとかputtyに適応してください。  
+(フォントファイルを上げると著作権違反になる)  
 
 # byobuのロゴ消し
 勝手にスクロールしちゃったりなんだかんだめんどくさい  
