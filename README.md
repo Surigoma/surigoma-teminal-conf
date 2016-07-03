@@ -6,6 +6,17 @@
 #Apps
 - zsh
 - vim
+- byobu(Backend is tmux)
+
+#byobuのロゴ消し
+勝手にスクロールしちゃったりなんだかんだめんどくさい  
+####とりあえずロゴいらん  
+  .byobu/status @32行目  
+  tmux_left="logo → tmux_left="#logo  
+####ロゴ表示したいけどどうにかしたい
+  環境によるかもだけど  
+  /usr/lib/byobu/logo @40行目  
+  printf " u□ "; → printf " U ";
 
 #多分参照元(Thanks)
 - http://d.hatena.ne.jp/oovu70/20120405/p1
