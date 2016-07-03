@@ -10,13 +10,18 @@
 
 #byobuのロゴ消し
 勝手にスクロールしちゃったりなんだかんだめんどくさい  
-####とりあえずロゴいらん  
-  .byobu/status @32行目  
+### とりあえずロゴいらん  
+  [.byobu/status @32行目](https://github.com/Surigoma/surigoma-teminal-conf/blob/master/.byobu/status#L32)  
   tmux_left="logo → tmux_left="#logo  
-####ロゴ表示したいけどどうにかしたい
+### ロゴ表示したいけどどうにかしたい
   環境によるかもだけど  
-  /usr/lib/byobu/logo @40行目  
+  [/usr/lib/byobu/logo @40行目](https://github.com/dustinkirkland/byobu/blob/master/usr/lib/byobu/logo#L40)  
   printf " u□ "; → printf " U ";
+### コンフィグ以外のところを弄りたくない
+  ただし、色はつかない  
+  (エスケープシーケンスとか頑張ったけどつけられなかった)  
+  [.byobu/statusrc @32行目](https://github.com/Surigoma/surigoma-teminal-conf/blob/master/.byobu/statusrc#L32)  
+  #LOGO="\o/" → LOGO=" U "  
 
 #多分参照元(Thanks)
 - http://d.hatena.ne.jp/oovu70/20120405/p1
