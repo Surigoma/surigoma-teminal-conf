@@ -65,4 +65,4 @@ precmd() {
 }
 alias history='history -E'
 alias tmux='tmux -u'
-export TERM=xterm-256color
+export TERM=screen
