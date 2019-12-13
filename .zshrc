@@ -66,3 +66,8 @@ precmd() {
 alias history='history -E'
 alias tmux='tmux -u'
 export TERM=screen
+
+# 履歴検索のキーバインドを再設定
+bindkey -v
+bindkey '\e[3~' delete-char
+bindkey '^R' history-incremental-search-backward
