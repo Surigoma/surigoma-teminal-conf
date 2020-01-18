@@ -52,7 +52,7 @@ NeoBundle 'Shougo/vimproc', {
   \     'unix' : 'make -f make_unix.mak',
   \    },
   \ }
-NeoBundle 'bling/vim-airline'
+NeoBundle 'vim-airline//vim-airline-themes'
 NeoBundle 'tomasr/molokai'
 NeoBundle 'nathanaelkane/vim-indent-guides'
 NeoBundle 'othree/html5.vim'
