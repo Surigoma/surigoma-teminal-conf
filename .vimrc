@@ -8,6 +8,9 @@ set modeline
 set autoindent
 set tabstop=4
 set shiftwidth=4
+set encoding=utf-8
+set fileencodings=utf-8,sjis,euc-jp
+set fileformats=unix,dos,mac
 let g:molokai_original = 1
 let g:indent_guides_auto_colors = 0
 autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  ctermbg=black
